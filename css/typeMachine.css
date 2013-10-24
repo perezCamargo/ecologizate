@@ -1,0 +1,24 @@
+#typeMachine{
+  font-family: Nova Flat, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color:#0D5585;
+}
+
+#typeMachine h1,h2 {
+  font-weight: 200;
+  margin: 0.4em;
+}
+
+#typeMachine h1 { font-size: 3.5em; }
+
+
+/** IMPORTANT STUFF **/
+.txt-rotate {
+  display: inline-block;
+  text-align: left;
+}
+.txt-rotate > .wrap {
+  /** this is the cursor **/
+  border-right: 0.1em solid #0D5585;
+}
