@@ -5,6 +5,13 @@
   75%{-webkit-transform:rotate(0deg);}
   100%{-webkit-transform:rotate(-30deg);}
 }
+@keyframes fly{
+  0%{transform:rotate(-30deg);}
+  25%{transform:rotate(0deg);}
+  50%{transform:rotate(30deg);}
+  75%{transform:rotate(0deg);}
+  100%{transform:rotate(-30deg);}
+}
 
 #paperPlane span{
   display:block;
@@ -13,6 +20,7 @@
   height:500px;
   margin:50px auto;
   -webkit-animation: fly 10s infinite;
+  animation: fly 10s infinite;
 }
 
 #paperPlane div:first-of-type{
@@ -25,6 +33,7 @@
   border-left:180px solid transparent;
   border-top:210px solid transparent;
   -webkit-transform:rotate(3deg);
+  transform:rotate(3deg);
 }
 
 #paperPlane div:nth-of-type(2){
@@ -55,6 +64,7 @@
 #paperPlane div:nth-of-type(3){
   position:absolute;
   -webkit-transform:rotate(-3deg);
+  transform:rotate(-3deg);
   margin-left:50%;
   left:215px;
   margin:0px;
