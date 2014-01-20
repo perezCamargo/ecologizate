@@ -10,7 +10,7 @@ body{
 	margin: 0px;
 }
 
-a{	text-decoration: none;}
+a{	text-decoration: none; }
 
 ul{
 	margin:0px;
@@ -25,7 +25,10 @@ section{
 	width: 100%;
 	padding-top: 30px; 
 	padding-bottom: 90px;
+	/*height:see in each section*/
 }
+
+
 /*********************************************
 					ID
 *********************************************/
@@ -139,6 +142,28 @@ section{
 	background: #F07240;
 }
 
+#misionVision div article{
+	width: 45%;
+}
+
+#misionVision div article h2{
+	color:#ac4300;/*#bc4500*/
+}
+
+/*SECCION ECO TIPS*/
+#ecoTips{
+	background: #A0D468;/*#967ADC;*/
+}
+
+#ecoTips div article{
+	width: 45%;
+}
+
+#ecoTips div article h2{
+	color: #6AA32A; /*#503D80;*/
+}
+
+/*SECCION PROYECTOS*/
 
 
 
@@ -182,6 +207,7 @@ section{
 .contentSec{
 	width: 80%;
 	margin:0 auto;
+	text-align: justify;
 }
 
 
