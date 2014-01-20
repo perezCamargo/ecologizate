@@ -164,8 +164,19 @@ section{
 }
 
 /*SECCION PROYECTOS*/
+#proyectos{
+	background: #ED5565;
+}
+#proyectos div article{
+	width: 45%;
+}
 
-
+#proyectos div article h2{
+	color: #A3271A;
+}
+#lampM{
+	height: 300px;
+}
 
 
 /*********************************************
