@@ -1,0 +1,65 @@
+#floating-head {
+  width: 160px;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+  
+#ball1, 
+#ball2,
+#ball3,
+#ball4,
+#ball5 {
+  -webkit-animation-name: ballfloat;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-fill-mode: none; 
+  animation-name: ballfloat;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: none; 
+}
+    
+#ball2 {
+  -webkit-animation-delay: 1.053s;
+  -webkit-animation-duration: 2s;
+  animation-delay: 1.053s;
+  animation-duration: 2s;
+}
+
+#ball3 {
+  -webkit-animation-delay: 1.9s;
+  -webkit-animation-duration: 1.5s;
+  animation-delay: 1.9s;
+  animation-duration: 1.5s;
+}
+
+#ball4 {
+  -webkit-animation-delay: 1.580s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 1.580s;
+  animation-duration: 1s;
+}
+
+#ball5 {
+  -webkit-animation-delay: 1.873s;
+  webkit-animation-duration: 2.5s;
+  animation-delay: 1.873s;
+  animation-duration: 2.5s;
+}  
+
+@-webkit-keyframes ballfloat {
+  0% {
+    -webkit-transform: translate(0,0);
+  }
+  33% {
+    -webkit-transform: translate(10px, -40px);
+  }
+  66% {
+    -webkit-transform: translate(-10px, -80px);
+  }
+  100% {
+    -webkit-transform: translate(0px, -120px); 
+  }
+}

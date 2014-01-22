@@ -139,6 +139,7 @@ section{
 /*SECCION MISION Y VISION*/
  
 #misionVision{
+	padding-top: 100px;
 	background: #F07240;
 }
 
@@ -152,6 +153,7 @@ section{
 
 /*SECCION ECO TIPS*/
 #ecoTips{
+	padding-top: 100px;
 	background: #A0D468;/*#967ADC;*/
 }
 
@@ -165,6 +167,7 @@ section{
 
 /*SECCION PROYECTOS*/
 #proyectos{
+	padding-top: 100px;
 	background: #ED5565;
 }
 #proyectos div article{
@@ -174,9 +177,29 @@ section{
 #proyectos div article h2{
 	color: #A3271A;
 }
+
+
+/*SECCION DESCARGAS*/
+#descargas{
+	padding-top: 100px;
+	background: #434A54;/*#656D78;*/
+}
+
+#descargas div article{
+	width: 45%;
+}
+
+#descargas div article h2{
+	color: #AAB2BD;/*#E6E9ED;*/
+}
+
 #lampM{
 	height: 300px;
 }
+
+/*SECCION COORDINADORES*/
+
+
 
 
 /*********************************************
