@@ -103,13 +103,12 @@ section{
 	font-size: 1.3em;
 }
 
-
 /******CONTENIDO DE TODA LA PÁGINA******/
 
 /*CONTENEDOR PRINCIPAL*/
 #content{
 	font-family: Nova Flat, sans-serif;		
-	z-index: -3;
+	/*z-index: -3;*/
 }
 
 /*DIV CREADO PARA SOLUCIONAR UN PROBLEMA CON EL BARTOP*/
@@ -198,7 +197,41 @@ section{
 }
 
 /*SECCION COORDINADORES*/
+#coordinadores{
+	padding-top: 100px;
+	background: #FFCE54;/*#99F0DA;*//*#7FEBCF;*/
+}
 
+#coordinadores div article h2{
+	margin: 0 auto;
+	margin-bottom: 40px;
+	width:30%;
+	text-align: center;
+	color: #E3A72D;
+	font-size: 3em;
+	text-shadow: 0px 0px 12px #FFFFFF;
+}
+	/*ESTILOS APRA LAS IMAGENES Y PARA CADA COORDINADOR*/
+.miembros{
+}
+.member{
+	margin: 15px;text-align: center; 
+}
+.member img{
+	border-radius: 100px;border:1px solid #FFFEEE;box-shadow: 0px 0px 15px #FFFEEE;
+	transition: 1s all;
+}
+.member img:hover{
+	border:1px solid #FC6E51;box-shadow: 0px 0px 35px #FC6E51;
+
+}
+.member a{
+	color: #0E2A36;
+	transition: 1s all;
+}
+.member a:hover{
+	color: #4A89DC;
+}
 
 
 

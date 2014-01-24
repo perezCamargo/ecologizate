@@ -226,17 +226,30 @@
 
 		<section id="coordinadores">
 			<div class="contentSec">
-
 				<article>
 					<h2 class="subTitle">Coordinadores</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, minima fugiat officia explicabo esse aliquam corrupti est voluptatum deleniti eveniet in ratione adipisci porro blanditiis nihil sapiente quo eligendi quisquam!
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, vero quos voluptatum. Maiores, minima, impedit, quod, harum quas quidem voluptas odio atque explicabo id corporis nam nihil sapiente! Nesciunt, doloribus.
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, illo, tempora, natus iste nam ipsum minima animi voluptate accusantium esse blanditiis vel cum rem consequatur aut. Animi, distinctio eum nesciunt.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ipsa recusandae adipisci aliquid ad corrupti odio dolor suscipit consequuntur tempora perspiciatis nesciunt quos molestias voluptas provident sed delectus porro ipsum.
-					</p>
+					<div class="miembros">
+						<div class="member block">
+							<figure><img src="img/avatar.png"></figure>
+							<span>Felipe Arturo Pérez Camargo</span><br>
+							<a target="_blank" href="http://twitter.com/perez_camargo">@perez_camargo</a>
+						</div>
+						<div class="member block">
+							<figure><img src="img/avatar.png"></figure>
+							<span>Felipe Arturo Pérez Camargo</span><br>
+							<a target="_blank" href="http://twitter.com/perez_camargo">@perez_camargo</a>
+						</div>
+						<div class="member block">
+							<figure><img src="img/avatar.png"></figure>
+							<span>Felipe Arturo Pérez Camargo</span><br>
+							<a target="_blank" href="http://twitter.com/perez_camargo">@perez_camargo</a>
+						</div>
+						<div class="member block">
+							<figure><img src="img/avatar.png"></figure>
+							<span>Felipe Arturo Pérez Camargo</span><br>
+							<a target="_blank" href="http://twitter.com/perez_camargo">@perez_camargo</a>
+						</div>
+					</div>
 				</article>
 			</div>		
 		</section>
@@ -246,25 +259,28 @@
 
 <!--CÓDIGO CSS PARA HACER QUE LA BARRA DE NAVEGACIÓN DE LA PÁGINA SIGA EL TRAYECTO DEL SCROLL-->
 <style type="text/css">
-	
-	#animateTest{z-index: 0;}
+/*RESUELTO SOLO CON LA CLASE .sandbox Y MODIFICANDO EL ARCHIVO jquery.jpanelmenu.min.js CAMBIANDO EL z-index DEL .open*/
+	/*#animateTest{z-index: 10;position: fixed;}*/
     .sandbox {
-        position: relative;
-        z-index: 0;
+    	position:fixed;
+    	z-index: 10;
+    	width: 100%;
+        /*position: relative;
+        z-index: 0;*/
      }
-    .fixed {
+    /*.fixed {
         position: fixed !important;
         top: 0;
         right: 0;
         left:0;
         width: 100%;
-    }
+    }*/
 </style>
 <!--SE MANDA A LLAMAR LAS LIBRERIAS DE JQUERY-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<!--CÓDIGO JQUERY PARA HACER QUE LA BARRA DE NAVEGACIÓN DE LA PÁGINA SIGA EL TRAYECTO DE SCROLL-->
-<script type="text/javascript">
-    function testAnim(x) {
+<!--script type="text/javascript">
+    /*function testAnim(x) {
         $('#animateTest').removeClass().addClass(x);
         var wait = window.setTimeout( function(){
             $('#animateTest').removeClass()},
@@ -282,8 +298,8 @@
                 $('.sandbox').removeClass('fixed');
             }
         });
-    });   
-</script>
+    });*/   
+</script-->
 
 </body>
 </html>
