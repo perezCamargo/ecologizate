@@ -1,0 +1,136 @@
+.head, .head:after, .ulC, .liC, .footer, .rod, .clip, .clip:after, .clip:before, .dot, .header, .header:after, .carbon {
+  display: block;
+  margin:0;
+  padding:0;
+  position: absolute;
+}
+.mechanick_pencil{
+  width: 402px;
+  height: 31px;
+  background: #444;
+  margin: auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+.head{
+  width: 10px;
+  height: 31px;
+  background: #111;
+  left: -10px;
+}
+.head:after{
+  content:"";
+  width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-right: 100px solid #222;
+    border-bottom: 15px solid transparent;
+  left: -100px;
+}
+.header{
+   width: 6px;
+  height: 8px;
+  background: #aaa;
+  left: -81px;
+  z-index: 2;
+  top:12px;
+}
+.header:after{
+  content:"";
+   width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-right: 16px solid #bbb;
+    border-bottom: 4px solid transparent;
+  left: -16px
+}
+.carbon{
+  width: 5px;
+  height: 3px;
+  background: black;
+  right: 492px;
+  z-index: 2;
+  top:14px;
+}
+.rod{
+  width: 40px;
+  height: 20px;
+  background: #AC92EC;
+  top: 5px;
+  left: -115px;
+}
+.ulC{
+  margin-left: 16px;
+}
+.liC{
+  width: 3px;
+  height: 31px;
+  list-style-type: none;
+  background: #191919;
+  margin-left:13px;
+  position: relative;
+  display: inline-block;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.footer{
+ width: 40px;
+  height: 31px;
+  background: #111;
+right: -40px;
+  border-radius: 2px;
+}
+
+.button{
+ width: 40px;
+  height: 24px;
+  background: #222;
+  top:3.5px;
+  right: -442px;
+  border-radius: 10px/20px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  position:relative;
+}
+.button:active {
+  position:relative;
+   width: 25px;
+}
+.clip{
+  width: 144px;
+  height: 8px;
+  background: #191919;
+  top: -12px;
+  right: -38px;
+  border-radius: 2px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 3px;
+}
+.clip:after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  z-index: -2;
+  border: 8px solid transparent;
+  border-top-right-radius: 70px;
+  border-top-color: #191919;
+  right: -6px;
+}
+.clip:before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  right: 1px;
+  top: 2px;
+  background: #191919;
+}
+.dot{
+  width: 15px;
+  height: 10px;
+  right: 88px;
+  top: -11px;
+  background: #191919;
+  border-radius: 9px/5px;
+  border-bottom-left-radius: 4px;
+  z-index: -2;
+}
